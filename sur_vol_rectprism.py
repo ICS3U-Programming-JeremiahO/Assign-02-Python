@@ -34,9 +34,10 @@ def main():
     # output
     # display the Surface area and volume 
     print("")
-    print("Surfacearea = {} cm^2".format(Surfacearea))
-    print("Volume = {} cm^3".format(volume))
-
-
+    print("Surfacearea = {:.2f} cm^2".format(Surfacearea))
+    print("Volume = {:.2f} cm^3".format(volume))
+    
+    
+    
 if __name__ == "__main__":
     main()
